@@ -1,6 +1,276 @@
 .header{
-background-color: blue;
+    display: flex;
+    justify-content: center;
+    background-image: url("office2.png");
+    background:linear-gradient(0deg, rgba(43, 64, 185, 0.582), rgba(43, 64, 185, 0.582)), url('officeimg.jpg');
+    color: white;
+    height: 90vh;
+    width: auto;
 }
-.overlay{
+.services{
+    font-family: 'Muli',sans-serif;
+    padding: 20px 0 20px 0;
+    margin: 22% 22% 22% 22%;
+}
+input{
+        border-radius: 10px;
+        border-style: none;
+        color: white;
+        width: 80px;
+    }
+ #contact-us{
+     background-color:rgb(109, 18, 109) ;
+ }
+ #learn-more{
+    background-color:rgb(236, 17, 207) ;
+}    
 
+  
+.Smart{
+    font-family: 'Muli',sans-serif;
+    flex-direction: column;
+    margin: 8% 8% 8% 8%;
+    text-align: center;
+    color: black;
+    justify-content: center;
+    background-color: white;
+    display: flex;
+}
+.h3{
+    font-size: 150%;
+}
+.row{
+    
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+
+.row > div {
+    background-color: white;
+    margin: 70px;
+    width: 350px;
+    line-height: 40px;
+    font-size: 30px;
+    text-align: center;
+  }
+  .market  > img{
+      width: 60px;
+  }
+  .market > .p1{
+        font-size: 70%;
+  }
+  .market > .p2{
+      font-size: 45% ;
+  }
+
+  .strategic  > img{
+    width: 60px;
+}
+    .strategic > .p21{
+      font-size: 70%;
+}
+    .strategic > .p22{
+    font-size: 45% ;
+}
+
+   .soles  > img{
+    width: 60px;
+}
+    .soles > .p31{
+      font-size: 70%;
+}
+    .soles > .p32{
+    font-size: 45% ;
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+.vid-p{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background:linear-gradient(0deg, rgba(43, 64, 185, 0.582), rgba(43, 64, 185, 0.582)), url('officeimg.jpg');
+    background-image: url('officeimg.jpg');
+    background-position: center;
+    height: 55vh;
+}
+.vidicon{
+    height: 100px;
+}
+.vid-p h1{
+    font-family: sans-serif;
+    color: white;
+}
+
+.items2{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 45vh;
+}
+.items2 div{
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.items2 img{
+    height: 50px;
+}
+.items2 h1{
+    margin: 0;
+    font-family: sans-serif;
+}
+.items2 p{
+    color: rgba(0, 0, 255, 0.822);
+    margin: 0;
+    font-family: sans-serif;
+}
+.container2{
+    background-color: rgb(243, 243, 243);
+}
+.getconnected{
+    justify-content: center;
+    display: flex;
+    width: 50vw;
+    align-items: center;
+    height: 55vh;
+    margin: auto;
+}
+.getconnected img{
+    margin-right: 50px;
+    height: 280px;
+}
+.getconnected ul{
+    color: gray;
+    margin-top: 0;
+    font-size: medium;
+    font-family: sans-serif;
+    padding-left: 20px;
+}
+.getconnected h1{
+    font-family: sans-serif;
+    margin-bottom: 0;
+}
+.getconnected button{
+    background-color: rgba(76, 0, 130, 0.822);
+    padding: 7px;
+    border-style: none;
+    border-radius: 12px;
+    color: white;
+}
+.people{
+  justify-content: center;
+  display: flex;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  text-align: center;
+  justify-content: center;
+
+}
+.title-block{
+  text-align: center;
+  font-family: Sans-Serif;
+}
+.fa {
+  padding: 20px;
+  width: 5px;
+  font-size: 30px;
+  text-decoration: none;
+  text-align: center;
+  height: 20px;
+}
+.fa-facebook {
+  color: darkblue;
+}
+.fa-twitter {
+  color: darkblue;
+}
+.fa-google{
+  color: darkblue;
+}
+
+.testcontainer{
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    height: 13px;
+    padding-left: 2px;
+    align-items: center;
+}
+.testsl{
+    background-color: white;
+    width: 240px;
+    float: left;
+    height: 8px;
+}
+.footer-container{
+  background-image: url('office.jpg');
+  height: 70vh;
+  background-position: center;
+}
+.footer{
+  display: flex;
+  width: 80%;
+  justify-content: center;
+  margin: auto;
+  text-align: center;
+  color: white;
+}
+.ana-djathte{
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  width: 50%;
+  margin: auto;
+}
+.ana-djathte p, .ana-djathte h4 {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+.rreshti1, .reshti2{
+  display: flex;
+  justify-content: center;
+}
+.karta{
+  margin: 5px;
+}
+.ana-majte{
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  align-items: center;
+  padding-right: 50px;
+}
+.ana-majte p{
+  color: lightslategray;
+  margin-bottom: 0;
+}
+.stats{
+  display: flex;
+  flex-direction: column;
+}
+.statscontainer{
+    display: flex;
+  background-color: rgb(107, 43, 226);
+    width: 250px;
+    height: 10px;
+    margin: 5px;
+    padding-left: 2px;
+    justify-content: left;
+}
+.statscontainer div{
+  background-color: white;
+  width: 150px;
+  margin: auto 0 auto 0;
+  height: 7px;
 }
